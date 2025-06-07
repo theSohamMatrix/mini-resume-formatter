@@ -1,4 +1,11 @@
-print("="*50)
+
+password = input("enter your password: ")
+if password == "Soham@123": 
+    print("welcome soham, good to see you again on project")
+else: 
+     print("access denied,try correct password")   
+     exit() 
+     print("="*50)
 print("Mini Resume Formatter".center(50))
 print("="*50)
 
